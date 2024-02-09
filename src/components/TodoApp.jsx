@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import "./TodoApp.css";
 const TodoApp = () => {
   const [text, setText] = useState("");
   const [todos, setTodos] = useState([]);
